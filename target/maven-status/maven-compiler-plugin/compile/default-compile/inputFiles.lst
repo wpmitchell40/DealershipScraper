@@ -1,0 +1,11 @@
+/Users/element40/Downloads/spring-boot/src/main/java/com/dealership/scraper/config/DealerRaterClientConfig.java
+/Users/element40/Downloads/spring-boot/src/main/java/com/dealership/scraper/service/ReviewRatingService.java
+/Users/element40/Downloads/spring-boot/src/main/java/com/dealership/scraper/dto/RatingData.java
+/Users/element40/Downloads/spring-boot/src/main/java/com/dealership/scraper/Application.java
+/Users/element40/Downloads/spring-boot/src/main/java/com/dealership/scraper/service/ReviewConsoleOutputService.java
+/Users/element40/Downloads/spring-boot/src/main/java/com/dealership/scraper/dto/ReviewData.java
+/Users/element40/Downloads/spring-boot/src/main/java/com/dealership/scraper/utils/ReviewScoreSorter.java
+/Users/element40/Downloads/spring-boot/src/main/java/com/dealership/scraper/client/DealerRaterClient.java
+/Users/element40/Downloads/spring-boot/src/main/java/com/dealership/scraper/config/DealerRaterClientProperties.java
+/Users/element40/Downloads/spring-boot/src/main/java/com/dealership/scraper/client/NaturalLanguageProcessorClient.java
+/Users/element40/Downloads/spring-boot/src/main/java/com/dealership/scraper/service/WebScraperService.java

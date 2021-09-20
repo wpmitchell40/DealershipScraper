@@ -1,0 +1,35 @@
+Written by: Parker Mitchell
+Required Java Version: 11
+Tests run via Maven
+
+To run the dealership scraper tests, ensure you have Java 11+ and Maven 3+ installed and from the command line in
+the project directory write:
+`mvn clean test`
+
+To run the dealership scraper program, ensure you have Java installed and from the command line write:
+`java -jar dealership-scraper-0.0.1-SNAPSHOT.jar <positive-criteria>`
+
+This will scrape the first 5 pages of reviews for 'McKaig Chevrolet Buick - A Dealer For The People' on DealerRater.com
+
+The 3 most positive reviews will be printed out to the terminal
+according to the positive criteria posted in the command when running.
+
+The first thing to compare is review score, according to the stars out of 5 that are present in the overall
+rating on the left side of the review. If the ratings are the same we move onto an alternative method of comparison
+to better determine which reviews are more suspiciously positive
+
+The positive-criteria option can be one of several values, username will print out the reviews in
+reverse-alphabetical order (usernames that start with z will come before usernames that start with y etc.)
+datePosted will sort based on the date the review was posted (more recent will come before older reviews)
+reviewLength will sort based on the overall length of the review as longer reviews tend to be more positive and suspicious
+
+The positive-criteria input is optional and if not supplied or if multiple/invalid arguments are
+passed into the program, it will run in reviewLength mode by default.
+
+TODO:
+The program is wired with springboot, but in the interest of time many of its functionalities were not implemented.
+Future iterations of this project can be set up to put the URLs of dealers in application.properties for
+dynamic variable use.  The other feature that was not able to be finished in time is Natural Language Processing
+via wit.ai and its library.  This could be used to compare overall positive sentiments through word usage for an even
+more accurate look into which reviews are most positive.  Training the NLP to search for positive words and score them
+appropriately was too time consuming, so other methods of positive determination were prioritized.

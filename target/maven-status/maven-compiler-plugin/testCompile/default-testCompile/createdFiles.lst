@@ -1,0 +1,4 @@
+com/dealership/scraper/ApplicationTests.class
+com/dealership/scraper/unit/service/ReviewRatingServiceUnitTest.class
+com/dealership/scraper/helper/UnitTestHelper.class
+com/dealership/scraper/unit/utils/ReviewScoreSorterUnitTest.class

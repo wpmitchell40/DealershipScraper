@@ -1,0 +1,11 @@
+com/dealership/scraper/config/DealerRaterClientProperties.class
+com/dealership/scraper/service/ReviewRatingService.class
+com/dealership/scraper/dto/ReviewData.class
+com/dealership/scraper/client/NaturalLanguageProcessorClient.class
+com/dealership/scraper/dto/RatingData.class
+com/dealership/scraper/utils/ReviewScoreSorter.class
+com/dealership/scraper/service/WebScraperService.class
+com/dealership/scraper/client/DealerRaterClient.class
+com/dealership/scraper/config/DealerRaterClientConfig.class
+com/dealership/scraper/service/ReviewConsoleOutputService.class
+com/dealership/scraper/Application.class
